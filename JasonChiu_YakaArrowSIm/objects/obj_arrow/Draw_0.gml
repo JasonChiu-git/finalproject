@@ -17,7 +17,7 @@ draw_primitive_begin(pr_trianglestrip);
 	
 		
 		var di = point_direction(_x1, _y1, _x2, _y2);
-		image_angle = point_direction(_x1, _y1, _x2, _y2);//cant solve the issue with angle returning when mouse stops
+		image_angle = point_direction(_x1, _y1, _x2, _y2);//cant solve the issue with angle returning when mouse stops. Tried solving it with many methods.
 	
 		var ortho_di1 = di + 90;
 		var ortho_di2 = di - 90;
